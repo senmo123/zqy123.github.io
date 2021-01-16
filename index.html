@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>一路前行</title>
+		<style type="text/css">
+			* {
+			    margin: 0;
+			    padding: 0
+			}		
+			.content {
+			    perspective: 340px;
+			    width: 100%;
+			    position: relative;
+			}		
+			h1 {
+			    color: white;
+			    text-align: center;
+			}			
+			span {
+			    display: block;
+			    text-align: center;
+			}		
+			.title {
+			    position: absolute;
+			    display: flex;
+			    justify-content: center;
+			    left: 0;
+			    right: 0;
+			    top: 300px;
+			    margin: auto;
+			    bottom: 0;
+			    color: #fff;
+			    font-size: 24px;
+			    font-weight: 500;
+			}
+			
+			.titles {
+			    position: absolute;
+			    display: flex;
+			    justify-content: center;
+			    left: 0;
+			    right: 0;
+			    top: 350px;
+			    margin: auto;
+			    bottom: 0;
+			    color: #fff;
+			    font-size: 20px;
+			    font-weight: 500;
+			}
+			
+			.ribbon {
+			    display: flex;
+			    justify-content: center;
+			    position: absolute;
+			    right: 400px;
+			    top: 50px;
+			    margin: auto;
+			}
+			
+			.ribbon:after,.ribbon:before {
+			    margin-top: 0.5em;
+			    content: "";
+			    display: flex;
+			    ;
+			    border: 1.5em solid #fff;
+			}			
+			.ribbon:after {
+			    border-right-color: transparent;
+			}			
+			.ribbon:before {
+			    border-left-color: transparent;
+			}			
+			.ribbon a:link,
+			.ribbon a:visited {
+			    color: #000;
+			    text-decoration: none;
+			    height: 3.5em;
+			    overflow: hidden;
+			}	
+			.ribbon span {
+			    background: #fff;
+			    display: inline-block;
+			    line-height: 3em;
+			    padding: 0 1.5em;
+			    margin-top: 0.5em;
+			    position: relative;
+			    -webkit-transition: background-color 0.2s, margin-top 0.2s;
+			    -moz-transition: background-color 0.2s, margin-top 0.2s;
+			    -ms-transition: background-color 0.2s, margin-top 0.2s;
+			    -o-transition: background-color 0.2s, margin-top 0.2s;
+			    transition: background-color 0.2s, margin-top 0.2s;
+			}	
+			.ribbon a:hover span {
+			    background: #FFD204;
+			    margin-top: 0;
+			}
+			.ribbon span:before {
+			    content: "";
+			    position: absolute;
+			    top: 3em;
+			    left: 0;
+			    border-right: 0.5em solid #9B8651;
+			    border-bottom: 0.5em solid #fff;
+			}	
+			.ribbon span:after {
+			    content: "";
+			    position: absolute;
+			    top: 3em;
+			    right: 0;
+			    border-left: 0.5em solid #9B8651;
+			    border-bottom: 0.5em solid #fff;
+			}
+			audio {
+			    position: fixed;
+			    bottom: 50px;
+			    right: 0;
+			}
+		</style>
+	</head>
+	<body>
+		    <div class="content">
+		        <img class="bgc" src="picture/senmo.gif" width="100%">
+		            <h3 class="title">让我们一路前行</h3>
+		            <h3 class="titles">今天也要好好加油呀</h3>
+					<nav>
+		            <div class='ribbon' align="center">
+		                <a href='lab01/index.html'><span>lab01</span></a>
+		                <a href='lab02/index.html'><span>lab02</span></a>
+		                <a href='lab03/index.html'><span>lab03</span></a>
+						<a href='lab04/index.html'><span>lab04</span></a>
+						<a href='lab05/index.html'><span>lab05</span></a>
+						<a href='lab06/index.html'><span>lab06</span></a>
+						<a href='lab07/index.html'><span>lab07</span></a>
+						<a href='课程设计/index.html'><span>课程设计</span></a>
+		            </div>
+					</nav>
+	</body>
